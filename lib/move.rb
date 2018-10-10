@@ -11,6 +11,12 @@ def input_to_index(input)
  return index
  end
 
+=======
+   input.to_i - 1
+ end
+
+
+>>>>>>> f8114a84d8948d78624074df30c63cc0cacbadf1
 def move(array, index, value = "X")
   array[index] = value
 end
